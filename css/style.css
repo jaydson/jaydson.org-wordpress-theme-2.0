@@ -217,8 +217,7 @@ td { vertical-align: top; }
 	text-transform:italic;
   font-size:26px;
   margin-top:45px;
-  margin-left:65px;
-  text-shadow: 2px 2px 3px #fff;
+  margin-left:65px;  
 }
 
 #banner .html5-badge{
@@ -232,7 +231,7 @@ td { vertical-align: top; }
 }
 .logo {
     font-family: 'Ubuntu Condensed', sans-serif;
-    font-size:60px;		
+    font-size:32px;		
     color:#00000;
     height:120px;
     width:25px;
@@ -242,13 +241,14 @@ td { vertical-align: top; }
 		font-weight:normal;
 }
 .logo:not(.letter){
-    top: 50px;
+    top: 75px;
 }
 .letter { width:80px;font-size:180px;margin-top:-62px;margin-left:-7;position:relative;bottom:0;left:0; font-weight:bold;}
 .wrapper { display:none;position:relative;bottom:0px;right:0px;float:right;top:100px;padding-right: 4px; }
 .ayd{float:left;margin-left: -10px;display:none}
 .on{float:left;display:none;margin-left: -4px;}
 
+#letter_s { margin-left:-8px; }
 #nav-main ul {
   background: #000000;
   background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
@@ -301,6 +301,10 @@ td { vertical-align: top; }
 }
 .post-date{
 	font-style: italic;
+}
+
+.post-content{
+	padding-bottom: 30px;
 }
 
 #nav-main ul li a:hover,

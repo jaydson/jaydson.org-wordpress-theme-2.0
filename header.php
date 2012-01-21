@@ -2,7 +2,7 @@
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" <?php language_attributes(); ?>> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" <?php language_attributes(); ?>> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" <?php language_attributes(); ?>> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" <?php language_attributes(); ?> manifest="<?php get_bloginfo( 'wpurl' ); ?>/jaydson.appcache"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
 
@@ -37,7 +37,7 @@
        	<div class="logo-container">
 		       	<img class="photo" src="<?php echo get_template_directory_uri(); ?>/img/photo.png">
 		       	<img class="html5-badge" src="<?php echo get_template_directory_uri(); ?>/img/html5-badge.png">
-		       	<div class="description">Desenvolvimento Web <br>JavaScript, HTML5 e outras coisas</div>
+		       	<div class="description">Web development<br>JavaScript, HTML5 and stuff</div>
 					<div class="wrapper">
 						<div id="letter_j" class="logo letter">J</div>
 						<div class="ayd">

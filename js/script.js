@@ -5,7 +5,7 @@ Jaydson.Konami = {
 	load : function(){
 		var konami = new Konami();
 		konami.code = function(){
-			$('.photo').attr('src','http://live.projects/jaydson.org-2.0/img/photo-konami.png');
+			$('.photo').attr('src','http://jaydson.org/img/photo-konami.png');
 		}
 		konami.load();
 	}
@@ -17,10 +17,7 @@ Jaydson.header = {
 	/* Start and load google web font */
 	loadGoogleWebFont : function(){
 		WebFontConfig = {
-		  google: { families: [ 'Ubuntu+Condensed::latin' ] },
-		  fontactive : function(){
-				$('.wrapper').fadeIn('slow',Jaydson.header.animation.init());
-		  }
+		  google: { families: [ 'Ubuntu+Condensed::latin' ] }
 		};
 		(function() {
 		  var wf = document.createElement('script');
@@ -31,6 +28,9 @@ Jaydson.header = {
 		  var s = document.getElementsByTagName('script')[0];
 		  s.parentNode.insertBefore(wf, s);
 		})();
+		setTimeout(function(){
+			$('.wrapper').fadeIn('slow',Jaydson.header.animation.init());
+		},2000);
 	},
 	
 	/* Jaydson logo animation */
@@ -151,8 +151,6 @@ var Konami = function() {
 	}
 	return konami;
 }
-
-
 
 $(document).ready(function(){
 	Jaydson.header.loadGoogleWebFont();
