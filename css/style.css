@@ -14,7 +14,7 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-body { margin: 0; font-size: 13px; line-height: 1.231; background:#ffffff;}
+body { margin: 0; font-size: 13px; line-height: 1.231; background:#DDD;}
 
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
@@ -354,7 +354,7 @@ td { vertical-align: top; }
    Content
    ========================================================================== */
 
-#content { margin-bottom: 24px; }
+#content { margin-bottom: 24px; margin-top: 50px;}
 #content .container { width: auto; position: relative; padding: 0; }
 
 
@@ -363,7 +363,7 @@ td { vertical-align: top; }
    ========================================================================== */
 
 #main { position: relative; }
-#main .container { padding: 0; }
+#main .container { margin-left: 40px; margin-top: 66px; }
 
 /* =============================================================================
    Sidebar
