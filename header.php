@@ -27,7 +27,17 @@
 <body <?php body_class(roots_body_class()); ?>>
 
   <?php roots_wrap_before(); ?>
-  <div id="wrap" class="container" role="document">
+  <div class="ads">
+    <div class="main-sponsor">
+      <a href="http://www.redehost.com.br/" target="_blank">
+        <img src="img/redehost-sponsor.jpg" alt="Site hospedado pela RedeHost" title="Site hospedado pela RedeHost" />
+      </a>
+    </div>
+    <div class="better-docs">
+      <a href='https://developer.mozilla.org/en/JavaScript/Reference' target="_blank" title='JavaScript Reference'><img src='http://static.jsconf.us/promotejsh.gif' height='150' width='180' alt='JavaScript Reference'/></a>
+    </div>
+  </div>
+  <div id="wrap" class="container" role="document" style="margin-left: 86px;">
   <?php roots_header_before(); ?>
     <header id="banner" class="<?php global $roots_options; echo $roots_options['container_class']; ?>" role="banner">
       <?php roots_header_inside(); ?>

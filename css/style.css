@@ -266,6 +266,12 @@ td { vertical-align: top; }
   width: 100%;
 }
 
+.ads {
+  position: absolute;
+  left: 1044px;  
+  width:200px;
+}
+
 #main .container h1{
 	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size:40px;
@@ -441,12 +447,13 @@ figure.gallery-item figcaption { display: none; }
    Footer
    ========================================================================== */
 
-#content-info { clear: both; position: relative; }
-#content-info > .container { padding: 0 0 1.5em; }
+#content-info { clear: both; position: relative;border-top:solid 1px;background:#F0DB4F;height:200px; }
+#content-info > .container { background:#F0DB4F; }
+#content-info .js-footer { float: right;margin-top: -133px;margin-right: 34px;font-size: 118px; }
 
 #content-info ul.menu { margin: 0 0 24px; padding: 0; list-style-type: none; }
 #content-info ul.menu li { display: inline; margin-right: 1em; }
-
+#content-info p { margin-left: 10px; margin-top: 175px;}
 #content-info p.copy small { font-size: 1em; }
 
 
