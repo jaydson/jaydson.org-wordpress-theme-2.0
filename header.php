@@ -30,7 +30,7 @@
   <div class="ads">
     <div class="main-sponsor">
       <a href="http://www.redehost.com.br/" target="_blank">
-        <img src="img/redehost-sponsor.jpg" alt="Site hospedado pela RedeHost" title="Site hospedado pela RedeHost" />
+        <img src="/img/redehost-sponsor.jpg" alt="Site hospedado pela RedeHost" title="Site hospedado pela RedeHost" />
       </a>
     </div>
     <div class="better-docs">
