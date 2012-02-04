@@ -26,11 +26,15 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
    Links
    ========================================================================== */
 
-a { color: #06c; }
-a:visited { color: #06c; }
-a:focus { color: #09f; outline: thin dotted; }
-a:hover, a:active { color: #09f; outline: 0; }
-a:active, input.button:active { outline: 0; position: relative; top: 1px; }
+a:link {
+  text-decoration:none;
+}
+a:visited {  
+  text-decoration:none;
+}
+a:active {  
+  text-decoration:none;  
+}
 
 .button, #post-nav a, #comments-nav a {
   display: inline-block;
@@ -277,6 +281,9 @@ td { vertical-align: top; }
 	font-size:40px;
 	color: #EB5928;
 	font-weight: bold;
+}
+#main .container h1 a {
+  color: #EB5928;
 }
 
 #main .container p{
