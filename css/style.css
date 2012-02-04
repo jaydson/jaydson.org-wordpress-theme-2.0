@@ -376,7 +376,7 @@ td { vertical-align: top; }
    ========================================================================== */
 
 #sidebar { position: relative; }
-#sidebar .container { width: auto; padding: 0; }
+#sidebar .container { width: 500px; padding: 0; }
 #sidebar .widget { clear: both; margin-bottom: 1.5em; }
 #sidebar .widget .gform_wrapper ul { padding: 0; list-style-type: none; }
 
