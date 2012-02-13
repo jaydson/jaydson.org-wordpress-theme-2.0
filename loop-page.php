@@ -9,6 +9,7 @@
       </div>
       <div class="post-date"> <?php the_time('d, F Y'); ?></div>
       <?php the_content(); ?>
+      <a href="<?php comments_link(); ?>"><?php echo comments_number(); ?></a>
       <?php wp_link_pages(array('before' => '<nav id="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>' )); ?>
     <?php roots_post_inside_after(); ?>
   <?php roots_post_after(); ?>

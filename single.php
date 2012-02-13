@@ -14,7 +14,7 @@
       <aside id="sidebar" class="<?php echo $roots_options['sidebar_class']; ?>" role="complementary">
       <?php roots_sidebar_inside_before(); ?>
         <div class="container">
-          <?php get_sidebar(); ?>
+          <?php get_sidebar(); ?>          
         </div>
       <?php roots_sidebar_inside_after(); ?>
       </aside><!-- /#sidebar -->
