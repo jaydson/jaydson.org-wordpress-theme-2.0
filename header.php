@@ -45,8 +45,8 @@
         <a id="" href="<?php echo home_url(); ?>/">
         </a>
        	<div class="logo-container">
-		       	<img class="photo" src="<?php echo get_template_directory_uri(); ?>/img/photo.png">
-		       	<img class="html5-badge" src="<?php echo get_template_directory_uri(); ?>/img/html5-badge.png">
+		       	<img class="photo" width="130" height="153" src="<?php echo get_template_directory_uri(); ?>/img/photo.png">
+		       	<img width="357" height="74" class="html5-badge" src="<?php echo get_template_directory_uri(); ?>/img/html5-badge.png">
 		       	<div class="description">Web development<br>JavaScript, HTML5 and stuff</div>
 					<div class="wrapper">
 						<div id="letter_j" class="logo letter">J</div>
