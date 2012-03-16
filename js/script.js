@@ -1,6 +1,7 @@
 /* Jayson Global namespace */
 var Jaydson = {};
 
+/* Konami code */
 Jaydson.Konami = {
 	load : function(){
 		var konami = new Konami();
