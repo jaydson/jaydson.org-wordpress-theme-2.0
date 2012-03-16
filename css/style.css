@@ -18,7 +18,7 @@ body { margin: 0; font-size: 13px; line-height: 1.231; background:#DDD;}
 
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
-::-moz-selection { background: #01746F; color: #01746F; text-shadow: none; }
+::-moz-selection { background: #01746F; color: #fff; text-shadow: none; }
 ::selection { background: #01746f; color: #fff; text-shadow: none; }
 
 
